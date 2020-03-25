@@ -4,10 +4,18 @@
 public class Test {
     public static void main(String[] args) {
         TestCalculation tc = new TestCalculation();
-        tc.testCalculation();
+        try {
+            tc.testCalculation();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 
         TestEmployeeCard tec = new TestEmployeeCard();
-        tec.testEmloyeeCard();
+        try {
+            tec.testEmployeeCard();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 
         TestIndividualWork tiv = new TestIndividualWork();
         tiv.testIndividualWork();

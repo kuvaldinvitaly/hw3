@@ -33,11 +33,11 @@ public class IndividualWork {
     public void bus(double time) {
         if(time > 14)      time = time % 14;
         if (time > 0 && time <= 8){
-            System.out.println("Комсомольская");
+            System.out.println("Улица Комсомольская");
         } else if (time > 8 && time <= 11){
-            System.out.println("Ленина");
+            System.out.println("Улица Ленина");
         } else if (time > 11 && time <= 14){
-            System.out.println("Тимирязевская");
+            System.out.println("Улица Тимирязевская");
         } else System.out.println("Вы ввели неправильное число");
     }
 

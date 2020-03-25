@@ -26,22 +26,6 @@ public class EmployeeCard {
      */
     private boolean isWoman;
 
-//     EmployeeCard(String name, int age, double effective, boolean isWoman) {
-//        name = name;
-//        age = age;
-//        effective = effective;
-//        isWoman = isWoman;
-//    }
-//
-//    EmployeeCard(String name, double effective, double salary, boolean isWoman) {
-//        name = name;
-//        age = age;
-//        salary = salary;
-//        effective = effective;
-//        isWoman = isWoman;
-//    }
-
-
     public EmployeeCard(String name, int age, double salary, boolean isWoman) {
         this.name = name;
         this.age = age;
